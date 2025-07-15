@@ -1,0 +1,40 @@
+{
+	"TestData":"testDataGSON",
+		"LoginInfo":
+				{
+					"UserName":"demo@codefios.com",
+					"Password":"abc123",
+					"ValidationTextLogin":"Dashboard",
+					"UserNameAlertMsg":"Please enter your user name",
+					"PasswordNameAlertMsg":"Please enter your password"
+				},
+				
+	"AddContact":
+	
+				{
+					"FullName":"rest APM",
+					"Company":"Abir Amz LLC",
+					"Email":"bluesea@yahoo.com",
+					"Phone":"5522266",
+					"Address":
+							[
+								{
+									"Street":"2222 E Belt Ln",
+									"City":"Dallas",
+									"State":"TX",
+									"Zip":"75087",
+									"Country":"Albania"
+								},
+								{
+									"Street":"1000 E Belt Ln",
+									"City":"Darby",
+									"State":"PA",
+									"Zip":"19082",
+									"Country":"United States"
+								}
+							],
+					"Group":"Selenium",
+					"ValidationTextAddCustomer":"New Customer"					
+					
+				}
+}

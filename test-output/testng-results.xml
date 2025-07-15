@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-15T14:03:18 CDT" name="Suite" finished-at="2025-07-15T14:04:40 CDT" duration-ms="81869">
+    <groups>
+    </groups>
+    <test started-at="2025-07-15T14:03:18 CDT" name="Test" finished-at="2025-07-15T14:04:40 CDT" duration-ms="81869">
+      <class name="test_pomProject.AddCustomerTest">
+        <test-method signature="addnewcustomer()[pri:0, instance:test_pomProject.AddCustomerTest@207ea13]" started-at="2025-07-15T14:03:19 CDT" name="addnewcustomer" finished-at="2025-07-15T14:04:07 CDT" duration-ms="48136" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: AbcTesting
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AYMANHUSSEIN', ip: '192.168.1.74', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: AbcTesting
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AYMANHUSSEIN', ip: '192.168.1.74', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.20'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+at page.BasePage.SelectfromDropDown(BasePage.java:14)
+at page.AddCustomerPage.selectcompanyfromdropdown(AddCustomerPage.java:41)
+at test_pomProject.AddCustomerTest.addnewcustomer(AddCustomerTest.java:52)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewcustomer -->
+      </class> <!-- test_pomProject.AddCustomerTest -->
+      <class name="test_pomProject.LoginTest">
+        <test-method signature="validateusernamemsg()[pri:1, instance:test_pomProject.LoginTest@4e28bdd1]" started-at="2025-07-15T14:04:07 CDT" name="validateusernamemsg" finished-at="2025-07-15T14:04:14 CDT" duration-ms="7657" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateusernamemsg -->
+        <test-method signature="validatepasswordmsg()[pri:2, instance:test_pomProject.LoginTest@4e28bdd1]" started-at="2025-07-15T14:04:14 CDT" name="validatepasswordmsg" finished-at="2025-07-15T14:04:24 CDT" duration-ms="9579" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatepasswordmsg -->
+        <test-method signature="logintoTF()[pri:3, instance:test_pomProject.LoginTest@4e28bdd1]" started-at="2025-07-15T14:04:24 CDT" name="logintoTF" finished-at="2025-07-15T14:04:40 CDT" duration-ms="16404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintoTF -->
+      </class> <!-- test_pomProject.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
