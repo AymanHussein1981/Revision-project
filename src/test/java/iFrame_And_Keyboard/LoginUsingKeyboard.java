@@ -61,6 +61,12 @@ WebDriver driver;
 	}
 	
 	
+	@Test
+	public void github() {
+		System.out.println("github branch");
+	}
+	
+	
 	@AfterMethod
 	public void TearDown() {
 		
